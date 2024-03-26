@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 echo 'The following Maven command installs your Maven-built Java application'
@@ -27,4 +28,3 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 java -jar $WORKSPACE/target/${NAME}-${VERSION}.jar
 echo "WORKSPACE: $WORKSPACE"
-set +x
